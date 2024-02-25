@@ -1,0 +1,14 @@
+.Projects {
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Projects h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+}

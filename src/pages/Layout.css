@@ -1,0 +1,43 @@
+.navbar {
+    user-select: none;
+    height: 80px;
+    background: darkblue;
+    z-index: 1;
+}
+
+.navbar-brand {
+    background-color: darkblue;
+    border: none;
+    outline: none;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.navbar-nav {
+    background-color: darkblue;
+    margin: 2px 20px;
+    position: fixed;
+}
+
+.nav-item {
+    margin: 4px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: sans-serif;
+    transition: .4s;
+}
+
+.nav-item a.active,
+.nav-item a:hover {
+    background:rgb(255, 166, 0);
+    border-radius: 5px;
+}

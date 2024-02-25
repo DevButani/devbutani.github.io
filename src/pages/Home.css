@@ -1,0 +1,51 @@
+.Home {
+    background-image: url(bg-img.jpg);
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    font-family: sans-serif;
+    user-select: none;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+.center h1 {
+    color: cyan;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.center h2 {
+    color: greenyellow;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.buttons button {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: red;
+    border: 1px solid yellow;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .5s;
+}
+
+.buttons button:hover {
+    color: purple;
+    background-color: gold;
+}

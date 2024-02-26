@@ -7,6 +7,7 @@ import logo from './logo.jpg';
 
 function Layout() {
   const [active, setactive] = React.useState(1)
+  const hidenav = () => {document.getElementById('main-nav').classList.remove("show")}
   return (
     <>
       <nav className="navbar navbar-expand-md">
@@ -18,16 +19,16 @@ function Layout() {
           <div className="collapse navbar-collapse justify-content-end align-center" id="main-nav">
             <ul className="navbar-nav justify-content-end">
               <li className="nav-item">
-                <Link onClick={() => {setactive(1)}} className={(active===1)? "active":""} to="/">Home</Link>
+                <Link onClick={() => {setactive(1); hidenav()}} className={(active===1)? "active":""} to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link onClick={() => {setactive(2)}} className={(active===2)? "active":""} to="/projects">Projects</Link>
+                <Link onClick={() => {setactive(2); hidenav()}} className={(active===2)? "active":""} to="/projects">Projects</Link>
               </li>
               <li className="nav-item">
-                <Link onClick={() => {setactive(3)}} className={(active===3)? "active":""} to="/about">About Me</Link>
+                <Link onClick={() => {setactive(3); hidenav()}} className={(active===3)? "active":""} to="/about">About Me</Link>
               </li>
               <li className="nav-item">
-                <Link onClick={() => {setactive(4)}} className={(active===4)? "active":""} to="/contact">Contact</Link>
+                <Link onClick={() => {setactive(4); hidenav()}} className={(active===4)? "active":""} to="/contact">Contact</Link>
               </li>
             </ul>
           </div>

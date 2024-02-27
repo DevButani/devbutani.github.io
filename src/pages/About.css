@@ -7,3 +7,14 @@
     text-align: center;
     margin: 0;
 }
+
+.link-box {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    padding-left: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}

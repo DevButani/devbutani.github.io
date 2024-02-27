@@ -9,10 +9,13 @@
     margin: 0;
 }
 
-.Contact ul {
-    font-size: 30px;
+.Contact ul li {
+    display: flex;
+    align-items: center;
 }
 
 .link {
+    padding-left: 10px;
+    font-size: 30px;
     text-decoration: none;
 }

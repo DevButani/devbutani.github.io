@@ -10,10 +10,10 @@ function Contact() {
           <h1>Contact Me</h1>
           <br/>
           <ul>
-            <li><img src={GMLogo} alt="GMail logo"/> devbutani26@gmail.com </li>
-            <li><img src={LILogo} alt="LinkedIn logo"/><a target='_blank' rel="noreferrer" className="link" href="https://www.linkedin.com/in/dev-butani-b570212b7"> Dev Butani </a></li>
-            <li><img src={GHLogo} alt="Github logo"/><a target='_blank' rel="noreferrer" className="link" href="https://github.com/DevButani"> Github </a></li>
-            <li><img src={CFLogo} alt="Codeforces logo"/><a target='_blank' rel="noreferrer" className="link" href="https://codeforces.com/profile/errors"> Codeforces </a></li>
+            <li><img src={GMLogo} alt="GMail logo"/><a target='_blank' rel="noreferrer" className="link" href="mailto:devbutani26@gmail.com">devbutani26@gmail.com</a></li>
+            <li><img src={LILogo} alt="LinkedIn logo"/><a target='_blank' rel="noreferrer" className="link" href="https://www.linkedin.com/in/dev-butani-b570212b7">Dev Butani</a></li>
+            <li><img src={GHLogo} alt="Github logo"/><a target='_blank' rel="noreferrer" className="link" href="https://github.com/DevButani">Github</a></li>
+            <li><img src={CFLogo} alt="Codeforces logo"/><a target='_blank' rel="noreferrer" className="link" href="https://codeforces.com/profile/errors">Codeforces</a></li>
           </ul>
         </div>
     );

@@ -12,7 +12,7 @@ function About() {
           <h3> as well as with libraries/frameworks like ReactJS, Bootstrap, NumPy, Tkinter and Pandas.</h3>
           <h3>My hobbies are competitive programming and playing table tennis and badminton.</h3>
           <div className="link-box">          
-            <img src={GDLogo} alt="Google Drive logo"/><a target='_blank' rel="noreferrer" className="link" href="https://drive.google.com/file/d/1mhvIh5FJ2WdtrvIt-ONJ0lS-wDfptrVt/view?usp=sharing">Resume</a>
+            <img src={GDLogo} alt="Google Drive logo"/><a target='_blank' rel="noreferrer" className="link" href="https://drive.google.com/file/d/1CbqdcjyOhdszFF6lJFrck93ZPuo4wAUg/view?usp=sharing">Resume</a>
           </div>
         </div>
     );

@@ -1,5 +1,5 @@
 import './Home.css';
-import GHLogo from './github-logo.png';
+import GHLogo from './images/github-logo.png';
 
 function Home() {
     return (

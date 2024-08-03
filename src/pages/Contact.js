@@ -1,8 +1,8 @@
 import './Contact.css';
-import GMLogo from './gmail-logo.png'
-import LILogo from './linkedin-logo.png'
-import GHLogo from './github-logo.png';
-import CFLogo from './codeforces-logo.png';
+import GMLogo from './images/gmail-logo.png'
+import LILogo from './images/linkedin-logo.png'
+import GHLogo from './images/github-logo.png';
+import CFLogo from './images/codeforces-logo.png';
 
 function Contact() {
     return (

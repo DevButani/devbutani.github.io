@@ -3,7 +3,7 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
 import './Layout.css';
-import logo from './logo.jpg';
+import logo from './images/logo.jpg';
 
 function Layout() {
   const [active, setactive] = React.useState(1)

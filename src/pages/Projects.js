@@ -1,5 +1,5 @@
 import './Projects.css';
-import GUIimg from './gui-img.png'
+import GUIimg from './images/gui-img.png'
 
 function Projects() {
     return (

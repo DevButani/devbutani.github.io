@@ -1,5 +1,5 @@
 import './About.css';
-import GDLogo from './googledrive-logo.png'
+import GDLogo from './images/googledrive-logo.png'
 
 function About() {
     return (
